@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Weather application",
+    "desc": "A weather forecasting web app that displays live weather updates and forecasts based on location.",
+    "image": "weather",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "A Stopwatch Web app",
+    "desc": "A stopwatch web app that helps users keep track of time with functionalities such as start, stop, and reset.",
+    "image": "/Images/stopwatch.jpg",
+    "category": "webapp",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Car-Care",
+    "desc": "A web app for managing car care and maintenance tasks, such as oil changes, tire rotations, and service reminders.",
+    "image": "/Images/Carcare.jpg",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Tic-Tac-Toe",
+    "desc": "A simple web-based Tic-Tac-Toe game where two players can play against each other in a 3x3 grid.",
+    "image": "/Images/Tic-Tac-Toe.jpg",
+    "category": "webapp",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]

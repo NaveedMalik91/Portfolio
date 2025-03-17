@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 8%;
+  height: 7rem;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(146,161,176,.3);
+}
+
+header .logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0E2431;
+  text-transform: uppercase;
+}
+
+header .navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navbar ul li {
+  margin-left: 2rem;
+}
+
+header .navbar ul li a {
+  font-size: 1.6rem;
+  color: #0E2431;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  transition: color 0.3s;
+}
+
+header .navbar ul li a:hover,
+header .navbar ul li a.active {
+  color: #310ae0;
+  text-decoration: underline;
+}
+
+.work {
+  background: linear-gradient(to bottom, #010136, #00003a);
+  margin-top: 7rem;
+  padding: 6rem 0;
+}
+
+.work .heading {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.work .heading span {
+  color: #310ae0;
+}
+
+.work .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.work .box-container .box {
+  flex: 1 1 30rem;
+  max-width: 40rem;
+  border-radius: 1rem;
+  background: #fff;
+  height: 30rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.work .box-container .box:hover {
+  transform: translateY(-10px);
+}
+
+.work .box-container .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.work .box-container .box:hover img {
+  transform: scale(1.1);
+}
+
+.work .desc {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.work .desc p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.work .desc .btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.work .desc .btns .btn {
+  padding: 1.5rem 3rem;
+  border-radius: .5rem;
+  color: #fff;
+  background: rgb(12, 12, 12);
+  margin-right: 2rem;
+  font-size: 1.4rem;
+  transition: background 0.3s ease;
+}
+
+.work .desc .btns .btn:hover {
+  background: #310ae0f5;
+}
+
+.backbtn .btn {
+  padding: 1.6rem 3rem;
+  border-radius: .5em;
+  color: #fff;
+  border: 2px solid #fff;
+  background: #000;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  transition: background 0.3s ease;
+}
+
+.backbtn .btn:hover {
+  background: #310ae0;
+}
